@@ -6,6 +6,6 @@ public class Run {
     public static void main(String[] args) {
         PackageFactory packageFactory = new PackageFactory();
         PackageDemo packageDemo = packageFactory.getPackage(Packages.PREMIUM);
-        System.out.println(packageDemo);
+        System.out.println(packageDemo.toString());
     }
 }
